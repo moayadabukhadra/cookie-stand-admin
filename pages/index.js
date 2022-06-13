@@ -1,22 +1,15 @@
-import { useState } from 'react';
-import Head from './components/Head';
-import Header from './components/Header';
-import Main from './components/Main';
-import Footer from './components/footer';
 
-function Home(){
-  
-  
+import CookieStandAdmin from './components/CookieStandAdmin';
+function Home() {
 
 
-  return(
+
+
+  return (
     <>
-    
-    <Head/>
-    <Header/>
-    <Main/>
-    <Footer/>
-    
+
+      <CookieStandAdmin />
+
     </>
   )
 }
