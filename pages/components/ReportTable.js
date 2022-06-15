@@ -56,12 +56,14 @@ function ReportTable({ data }) {
                     <tbody id="table">
 
                         {
+                            
                             data.map(cookieStand => {
                                 const hourly_sales = [];
                                 for (let i = 0; i < hours.length; i++) {
                                     hourly_sales.push(Math.floor(Math.random() * (cookieStand.maxCust - cookieStand.minCust) * cookieStand.avgCookies));
                                 }
-
+                            
+                            
                                 return (
                                     <tr className="border border-current ">
                                         <td className="border border-current ">{cookieStand.location}</td>
