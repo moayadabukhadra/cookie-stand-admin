@@ -27,11 +27,13 @@ function CookieStandAdmin() {
 
         }
         setNewCookieStand([...newCookieStand, data]);
-        console.log(newCookieStand);
+        
         setCounter(counter + 1);
 
 
     }
+    console.log(newCookieStand);
+    
 
     return (
         <>
